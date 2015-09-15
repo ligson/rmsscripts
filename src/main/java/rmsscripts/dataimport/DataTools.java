@@ -30,7 +30,7 @@ public class DataTools {
 	private static long consumer_id = 1;
 
 	public static List<Program> getList() throws Exception {
-		Connection sqlServerConnection = ConnectPool.getSqlServerConnection();
+		Connection sqlServerConnection = null;
 		List<Program> programs = new ArrayList<>();
 
 		String preSql = "select a.Title,a.Author,a.ID,a.Created,a.Description,a.ListKeys4 from Article a where a.ListKeys4 is not null and a.ListKeys4 <>''";

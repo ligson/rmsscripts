@@ -10,4 +10,4 @@ for jar in `ls $WORK_HOME/lib/*.jar`
 done
 
 export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:$WORK_HOME/tools/lib'
-$RUN_JAVA -Dfile.encoding=UTF-8 -classpath $LIB_PATH rmsscripts.dataimport.xmlmodel.FromXml  $1 $2 $3 $4
+$RUN_JAVA -Dfile.encoding=UTF-8 -classpath $LIB_PATH rmsscripts.dataimport.xmlmodel.GeneralXml  $1 $2

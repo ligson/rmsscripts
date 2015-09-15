@@ -43,10 +43,10 @@ public class RmsProgram {
 	private int from_state;
 	private String guid;
 	// 是否在各个分类首页显示 0-否 1-是
-	private int is_category_show = 0;
+	//private int is_category_show = 0;
 	// 是否作为今日焦点 0-否 1-是
-	private int is_focus = 0;
-	private int is_index_show = 0;
+	//private int is_focus = 0;
+	//private int is_index_show = 0;
 	private String name;
 	private int now_version;
 	private Date open_date;
@@ -330,7 +330,7 @@ public class RmsProgram {
 		this.guid = guid;
 	}
 
-	public int getIs_category_show() {
+	/*public int getIs_category_show() {
 		return is_category_show;
 	}
 
@@ -352,7 +352,7 @@ public class RmsProgram {
 
 	public void setIs_index_show(int is_index_show) {
 		this.is_index_show = is_index_show;
-	}
+	}*/
 
 	public String getName() {
 		return name;
