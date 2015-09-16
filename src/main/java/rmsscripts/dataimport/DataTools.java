@@ -89,7 +89,7 @@ public class DataTools {
 			ProgramProgramCategories programCategories = new ProgramProgramCategories();
 			programCategories.setProgram_category_id(resources.getCategoryId());
 			programCategories.setProgram_id(rmsProgram.getId());
-			programCategories.insert();
+			//programCategories.insert();
 
 			// 导入serial
 			int seraino = 1;

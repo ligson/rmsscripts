@@ -29,6 +29,9 @@ public class GeneralXml {
 					Element fileElement = filesElement.addElement("file");
 					fileElement.setText(file3.getAbsolutePath());
 				}
+			}else{
+				Element fileElement = filesElement.addElement("file");
+				fileElement.setText(file2.getAbsolutePath());
 			}
 		}
 
